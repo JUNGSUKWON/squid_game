@@ -1,4 +1,4 @@
-package squid_game;
+package game;
 
 import java.util.ArrayList;
 import java.util.Random;

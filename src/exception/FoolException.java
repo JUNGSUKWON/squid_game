@@ -1,4 +1,4 @@
-package squid_game;
+package exception;
 
 public class FoolException extends Exception {
 

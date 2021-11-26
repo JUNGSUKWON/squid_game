@@ -1,8 +1,10 @@
-package squid_game;
+package game;
 
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
+
+import exception.FoolException;
 
 public class HoljjackGame {
 
