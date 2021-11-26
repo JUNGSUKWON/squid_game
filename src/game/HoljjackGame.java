@@ -150,13 +150,13 @@ public class HoljjackGame {
 
 		}
 		System.out.println("오일남의 남은 구슬갯수는 "+" "+cpumarble);
-		System.out.println("성기훈 남은 구슬의 갯수는.."+ usermarble);
+		System.out.println("성기훈 남은 구슬의 갯수는.."+ usermarble+"\n");
 	}
 
 
 	private void oil() {//오일남이 맞히는 차례
 		System.out.print("[오일남]자 이제 자네가 구슬을 움켜쥐어보게나..");
-		int sung = rd.nextInt(2)+1;//성기훈이 움켜쥘 구슬
+//		int sung = rd.nextInt(2)+1;//성기훈이 움켜쥘 구슬
 
 		//성기훈이 몇개를 움켜 쥘것인지
 		int sungInput =0;
@@ -209,7 +209,7 @@ public class HoljjackGame {
 		}
 		
 		System.out.println("오일남의 남은 구슬갯수는 "+" "+cpumarble);
-		System.out.println("성기훈의 남은 구슬의 갯수는.."+ usermarble);
+		System.out.println("성기훈 남은 구슬의 갯수는.."+ usermarble+"\n");
 	}
 
 
